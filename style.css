@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* outline: 1px solid greenyellow; */
+}
+body{
+    background: rgb(31, 31, 31);
+}
+
+.adds{
+    animation: .5s adds linear;
+}
+@keyframes adds{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.banner-con{
+    animation:1.5s bancon linear;
+    text-shadow:  3px 5px 1px rgb(0, 0, 0);
+    
+}
+
+@keyframes bancon{
+    0%{
+        transform:translate(-100%);
+    }
+    100%{
+        transform:translate(0);
+    }
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="px-[5%] flex justify-between items-center h-[70px] fixed w-full bg-black z-50">
+        <div class="text-[30px] font-bold">
+            Logo
+        </div>
+        <div class="flex gap-5 text-base">
+           <a href="index.html" class="hover:text-[#03ff03]">Home</a>
+           <a href="menu.html" class="hover:text-[#03ff03]">Menu</a>
+           <a href="" class="hover:text-[#03ff03]">Offres</a>
+           <a href="" class="hover:text-[#03ff03]">Reviews</a>
+           <a href="" class="hover:text-[#03ff03]">Contact</a>
+        </div>
+        <div class="border p-1.5 rounded-md flex flex-col gap-[4px] group hidden" id="menu">
+            <p class="w-7 h-[2px] bg-[#63ff63] rounded-sm"></p>
+            <p class="w-7 h-[2px] bg-[#63ff63] rounded-sm"></p>
+            <p class="w-4 h-[2px] bg-[#63ff63] rounded-sm group-hover:w-7 duration-300"></p>
+        </div>
+    </div>
+
+    <div class="w-full h-screen bg-center bg-[url('./import/res3.jpg')] bg-cover bg-no-repeat flex flex-col justify-evenly pt-[80px] pb-10 px-[5%]">
+        <div class="h-[200px] w-[200px] rounded-full bg-[#63ff63] text-center adds">
+            <h1 class="text-[60px] font-semibold text-black m-auto">20%</h1>
+            <h3 class="text-[30px] text-black m-auto">off on Every pizza</h3>
+        </div>
+        <div class="border-l-[5px] border-l-[#63ff63] pl-[10px] overflow-hidden drop-shadow-xl">
+            <h3 class="text-[30px] banner-con">NEW RESTAURANT</h3>
+            <h1 class="text-7xl banner-con">Where every <br>ingredient <br>tells a story</h1>
+        </div>
+    </div>
+
+    <div class="px-[5%] text-center">
+        <h1 class="mt-[30px] text-[35px] mb-[10px]">Our Menu</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            <div class="bg-[url('./import/res11.jpg')] bg-cover rounded-[25px]">
+                <div class="h-[250px]  text-[55px] rounded-[25px] flex flex-col justify-center items-center gap-5 hover:translate-y-[-10px] duration-300 shadow-md shadow-black bg-[#00000040]">
+                    <h3 class="">Pizza</h3>
+                    <button class="h-[35px] text-base font-semibold w-[120px] rounded-[10px]  bg-[#00000057] hover:scale-110 duration-300">View Items</button>
+                </div>
+            </div>
+            
+            <div class="bg-[url('./import/res9.jpg')] bg-cover rounded-[25px]">
+                <div class="h-[250px]  text-[55px] rounded-[25px] flex flex-col justify-center items-center gap-5 bg-[#00000040] hover:translate-y-[-10px] duration-300 shadow-md shadow-black">
+                    <h3>Burger</h3>
+                    <button class="h-[35px] text-base font-semibold w-[120px] rounded-[10px]  bg-[#00000057] hover:scale-110 duration-300">View Items</button>
+                </div>
+            </div>
+           
+            <div class="bg-[url('./import/res14.jpg')] bg-cover bg-center rounded-[25px]">
+                <div class="h-[250px]  text-[55px] rounded-[25px] flex flex-col justify-center items-center gap-5 hover:translate-y-[-10px] duration-300 shadow-md shadow-black bg-[#00000040]">
+                    <h3>Dessert</h3>
+                    <button class="h-[35px] text-base font-semibold w-[120px] rounded-[10px]  bg-[#00000057] hover:scale-110 duration-300">View Items</button>
+                </div>
+            </div>
+           
+            <div class="bg-[url('./import/res13.jpg')] bg-cover bg-center rounded-[25px]">
+                <div class="h-[250px]  text-[55px] rounded-[25px] flex flex-col justify-center items-center gap-5 bg-[#00000040] hover:translate-y-[-10px] duration-300 shadow-md shadow-black">
+                    <h3>Shakes</h3>
+                    <button class="h-[35px] text-base font-semibold w-[120px] rounded-[10px]  bg-[#00000057] hover:scale-110 duration-300">View Items</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="px-[5%] py-[30px]">
+        <h1 class="text-[35px] mb-[10px] text-center">New Items</h1>
+        <div class="new-items grid grid-cols-1 md:grid-cols-2 gap-[30px]">
+            <div class="">
+                <div class="pl-[10px] mb-[15px] border-l-[5px] border-l-[#63ff63]">
+                    <h1 class="text-[65px]">Steak</h1>
+                    <p class="w-full md:w-[80%] text-[20px]">Set your taste buds on a journey with our Steak</p>
+                    <p class="w-full md:w-[80%] text-[20px]">Choose your spice level & cook style to enjoy the ultimate falvour</p>
+                </div>
+                <div class="relative flex justify-center md:block">
+                    <img src="import/wooden-board-with-cooked-meat.jpg" alt="" class="w-[80%] rounded-[50px]">
+                    <div class="absolute bottom-[-10px] right-[50px] w-[150px] h-[150px] rounded-full bg-[#63ff63] flex items-center justify-center text-lg text-center shadow-md shadow-black">
+                        <h3 class="text-black font-semibold">Starting <br>at taka<br>700</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col-reverse md:block">
+                <div class="relative flex justify-center md:block">
+                    <img src="import/freshly-cooked-ramen-noodles-with-pork-vegetables-generative-ai1.jpg" alt="" class="w-[80%] rounded-[50px] ml-0 md:ml-[20%]">
+                    <div class="absolute top-[-10px] left-[50px] w-[150px] h-[150px] rounded-full bg-[#63ff63] flex items-center justify-center text-lg text-center shadow-md shadow-black">
+                        <h3 class="text-black font-semibold">Starting <br>at taka<br>350</h3>
+                    </div>
+                </div>
+                <div class="pl-[10px] ml-0 md:ml-[20%] mb-[15px] border-l-[5px] border-l-[#63ff63]">
+                    <h1 class="text-[65px]">Ramen</h1>
+                    <p class="text-[20px]">Set your taste buds on a journey with our Ramen</p>
+                    <p class="text-[20px]">Choose your spice level & toppings to enjoy the ultimate falvour</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 class="text-[35px] mb-[10px] text-center">New Arrival</h1>
+   <div class="px-[5%] py-5 w-full grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="w-full relative group overflow-hidden shadow-black shadow-md rounded-md">
+            <img src="import/res16.jpg" alt="" class="w-full">
+            <div class="absolute bottom-0 p-5 w-full bg-[#0000004b] translate-y-[55%] group-hover:translate-y-[0%] duration-300 flex flex-col gap-2">
+                <h1 class="text-xl font-semibold">Set Menu One</h1>
+                <p class="opacity-0 group-hover:opacity-100">Fried rice with three pieces of chicken jhal fry,sauce,salad
+                </p>
+                <h3 class="text-lg font-semibold">Taka 350</h3>
+            </div>
+        </div>
+
+    
+        <div class="w-full relative group overflow-hidden shadow-black shadow-md rounded-md">
+            <img src="import/res15.jpg" alt="" class="w-full h-full">
+            <div class="absolute bottom-0 p-5 w-full bg-[#0000004b] translate-y-[55%] group-hover:translate-y-[0%] duration-300 flex flex-col gap-2">
+                <h1 class="text-xl font-semibold">Set Menu Two</h1>
+                <p class="opacity-0 group-hover:opacity-100">Fried rice with three pieces of chicken jhal fry,sauce,salad
+                </p>
+                <h3 class="text-lg font-semibold">Taka 300</h3>
+            </div>
+        </div>
+    
+     
+        <div class="w-full relative group overflow-hidden shadow-black shadow-md rounded-md">
+            <img src="import/res17.jpg" alt="" class="w-full h-full">
+            <div class="absolute bottom-0 p-5 w-full bg-[#0000004b] translate-y-[55%] group-hover:translate-y-[0%] duration-300 flex flex-col gap-2">
+                <h1 class="text-xl font-semibold">Set Menu Three</h1>
+                <p class="opacity-0 group-hover:opacity-100">Fried rice with three pieces of chicken jhal fry,sauce,salad
+                </p>
+                <h3 class="text-lg font-semibold">Taka 250</h3>
+            </div>
+        </div>
+
+   </div>
+
+   <div class="mt-[30px] w-full h-screen bg-[url('./import/res6.jpg')] bg-cover bg-top flex flex-col justify-center items-center gap-2">
+    <h1 class="text-[60px]">Keep Up To Date With US</h1>
+    <div class="w-full text-center">
+        <input type="text" placeholder="Enter Your Mail" class="h-[35px] w-[30%] rounded-[20px] mr-[10px] pl-5">
+        <button class="h-[35px] w-[100px] rounded-[20px] bg-[#63ff63] text-black font-semibold">Submit</button>
+    </div>
+    
+   </div>
+
+   <div class="px-[5%] py-10 flex flex-col md:flex-row gap-5 justify-evenly text-center">
+    <div class="flex flex-col items-center">
+        <img src="import/email.png" alt="" class="h-[80px] w-[80px] rounded-full bg-[#63ff63] border-[#63ff63] border-[20px] mb-2">
+        <h3 class="text-base font-semibold">CHAT WITH US</h3>
+        <p>Our team is here to help via Mail</p>
+        <span class="text-[#63ff63]">abc@abc.com</span>
+    </div>
+    <div class="flex flex-col items-center gap-2">
+        <img src="import/location.png" alt="" class="h-[80px] w-[80px] rounded-full bg-[#63ff63] border-[#63ff63] border-[20px]">
+        <h3 class="text-base font-semibold">MEET US IN PERSON</h3>
+        <p>Come to our shop on</p>
+        <span class="text-[#63ff63]">abc</span>
+    </div>
+    <div class="flex flex-col items-center gap-2">
+        <img src="import/phone-call.png" alt="" class="h-[80px] w-[80px] rounded-full bg-[#63ff63] border-[#63ff63] border-[20px]">
+        <h3 class="text-base font-semibold">CALL FOR INFORMATION</h3>
+        <p>call on this number for informationi </p>
+        <span class="text-[#63ff63]">0123456789</span>
+    </div>
+
+   </div>
+
+  <div class="w-full h-[200px] bg-black flex items-center justify-center text-center"  >DESIGNEDBY AKIB IMG ARE FROM FREE <br>CONTACT TO MAKE YOUR WEBSITE LIKE THIS</div>
+    
+</body>
+</html>
